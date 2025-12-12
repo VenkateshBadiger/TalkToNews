@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>TalkToNews</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+    <h1 class="title">TalkToNews</h1>
+    <div id="status" class="status-text">Loading…</div>
+
+    <!-- Main Control Buttons -->
+    <div class="button-row">
+        <button id="playBtn" class="btn primary">Play</button>
+        <button id="stopBtn" class="btn danger">Stop</button>
+        <button id="summaryBtn" class="btn secondary">Summarize</button>
+    </div>
+
+    <!-- Headlines List -->
+    <div id="listView" class="headline-list"></div>
+
+    <!-- Summary Section -->
+    <div class="summary-section">
+        <h3>Summary</h3>
+        <button id="readSummaryBtn" class="btn primary small-btn">Read Summary</button>
+
+        <div id="summaryBox" class="summary-box">
+            <span class="placeholder">Summary will appear here…</span>
+        </div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>

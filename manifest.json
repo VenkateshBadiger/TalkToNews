@@ -1,0 +1,42 @@
+{
+    "manifest_version": 3,
+    "name": "TalkToNews",
+    "version": "1.0",
+    "description": "Extracts headlines, reads them aloud, classifies topics, and generates AI summaries.",
+    "icons": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    },
+  
+    "permissions": [
+      "storage",
+      "activeTab",
+      "scripting"
+    ],
+  
+    "host_permissions": [
+      "*://*/*",
+      "https://api-inference.huggingface.co/*"
+    ],
+  
+    "background": {
+      "service_worker": "service_worker.js"
+    },
+  
+    "action": {
+      "default_popup": "popup.html",
+      "default_title": "TalkToNews"
+    },
+  
+    "options_page": "options.html",
+  
+    "content_scripts": [
+      {
+        "matches": ["*://*/*"],
+        "js": ["content_script.js"]
+      }
+    ]
+  }
+  
