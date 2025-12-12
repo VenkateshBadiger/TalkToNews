@@ -17,10 +17,17 @@ This tool is built especially for:
 - Anyone who wants a clean, distraction-free news experience  
 
 ---
+# 🖼️ Final Output   
+## 
+<p align="center">
+  <img src="Docs_readme/UI - popup.png" width="19%" />
+  <img src="Docs_readme/UI - fullscreen.png" width="45%" />
+</p>
 
-# 🖼️ **Working Diagram (Insert Image Here)**  
-> 📌 Add your architecture/working diagram here  
-> Save your file as: `docs/working-diagram.png`
+# 🖼 Working Diagram
+
+<img src="Docs_readme/working.png" alt="Working Diagram" width="600">
+
 
 
 ---
@@ -105,18 +112,8 @@ User can scroll headlines, select another headline, classify, summarize, or list
 
 ---
 
-# 🖼️ **Final Output (Insert Images Here)**  
-> 📌 Add screenshots of your UI here  
-> Save as:  
-> — `docs/output-1.png`  
-> — `docs/output-2.png`  
-> — `docs/output-summary.png`
-
-
----
-
 # ⚙️ Installation Guide (Step-by-Step)
 
 ### **1. Download or Clone the Repository**
 ```bash
-git clone https://github.com/YOUR-USERNAME/TalkToNews.git
+git clone https://github.com/VenkateshBadiger/TalkToNews.git
