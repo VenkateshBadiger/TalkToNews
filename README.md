@@ -25,9 +25,9 @@ This tool is built especially for:
 </p>
 
 # 🖼 Working Diagram
-
-<img src="Docs_readme/working.png" alt="Working Diagram" width="600">
-
+<p align="center">
+  <img src="Docs_readme/working.png" alt="Working Diagram" width="600"/>
+</p>
 
 
 ---
